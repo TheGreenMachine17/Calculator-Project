@@ -46,7 +46,7 @@ function twoButton(number) {
 function threeButton(number) {
 	var txt = document.getElementById("numbers");
 	//txt.value = "";
-	txt =  txt.value + "" + number;
+	txt.value =  txt.value + "" + number;
 	var theNumber = parseFloat(txt);
 }
 
@@ -88,7 +88,7 @@ function eightButton(number) {
 }
 
 function nineButton(number) {
-	var txt = document.getElementById("numbers").value;
+	var txt = document.getElementById("numbers");
 	//txt.value = "";
 	txt.value = txt.value + "" + number;
 	var theNumber = parseFloat(txt);
